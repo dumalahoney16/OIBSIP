@@ -1,0 +1,37 @@
+🌡️ Temperature Converter – Web Application
+📌 Objective
+The goal of this project is to build a simple and interactive Temperature Converter web application that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. The project focuses on implementing conversion logic using JavaScript and providing a clean, user-friendly interface using HTML and CSS.
+
+🧩 Steps Performed
+1.Created HTML Structure (index.html)
+Added a title “Temperature Converter” and an input field for users to enter the temperature value.
+Included two dropdown menus to select the conversion units: “From” and “To”.
+Added a Convert button to trigger the conversion process.
+Displayed the conversion result dynamically below the button.
+
+2.Implemented Styling (style.css)
+Designed a light blue theme for a modern and calm interface.
+Styled input fields, dropdowns, and buttons for better visibility and usability.
+Ensured the layout is centered and responsive for all screen sizes.
+
+3.Added Functionality (script.js)
+Used JavaScript to handle user input, perform temperature conversions, and display the results dynamically.
+Supported conversions among:
+Celsius ↔ Fahrenheit
+Celsius ↔ Kelvin
+Fahrenheit ↔ Kelvin
+
+4.Tested the Application
+Verified all possible conversion combinations for accuracy.
+Ensured the result updates instantly after clicking the “Convert” button.
+🛠️ Tools & Technologies Used
+
+HTML5 – For creating the webpage structure.
+CSS3 – For styling and layout (light blue theme).
+JavaScript (ES6) – For implementing temperature conversion logic.
+Visual Studio Code – As the development environment.
+
+🎯 Outcome
+A fully functional, responsive Temperature Converter Web App that provides instant and accurate temperature conversions.
+Simple UI with easy-to-use dropdown menus and a clear result display.
+Demonstrates the integration of HTML, CSS, and JavaScript for an interactive web project.
