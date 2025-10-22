@@ -1,0 +1,51 @@
+📌 Objective
+
+The objective of this project is to design and develop a responsive and visually appealing landing page for PurpleGlow Skincare, a fictional skincare brand. The website aims to present the brand’s identity, showcase skincare essentials, and enhance user engagement with an elegant layout and smooth navigation.
+
+🧩 Steps Performed
+1.Project Setup
+Created an HTML file (index.html) to structure the website.
+Linked an external CSS file (style.css) for layout and design styling.
+
+2.Page Structure
+Header & Navigation Bar – Includes brand logo “PurpleGlow” and menu links (Home, Products, Testimonials, Contact).
+Hero Section – Highlights the brand tagline “Glow Naturally with PurpleGlow” and includes a call-to-action button.
+Products Section – Displays five main skincare products:
+Cleanser
+Toner
+Serum
+Moisturizer
+Sunscreen
+Each product image is clickable and opens a modal displaying five brand options.
+Testimonials Section – Includes positive customer feedback with quotes.
+Footer – Provides contact information and copyright details.
+3.Modal Functionality
+Implemented interactive modals that appear when a product is clicked, showcasing additional details dynamically using JavaScript.
+4.Responsive Design
+Used flexible layouts and media queries to ensure compatibility across different devices (desktop, tablet, mobile).
+
+🛠️ Tools & Technologies Used
+
+HTML5 – Structure and content organization.
+CSS3 – Styling, layout, and responsiveness.
+JavaScript (Vanilla JS) – Modal interactivity and dynamic content loading.
+Google Fonts (Quicksand) – For elegant typography.
+Visual Studio Code – Development environment.
+
+🎯 Outcome
+
+A modern, responsive, and interactive landing page that enhances brand visibility and user engagement.
+Users can explore the skincare product range, read testimonials, and contact the brand easily.
+The site maintains a consistent color scheme and smooth navigation for a professional skincare brand look.
+📁 File Structure
+PurpleGlow/
+│
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    ├── cleanser.png
+    ├── toner.jpeg
+    ├── serum1.jpg
+    ├── moist.png
+    └── sunscreen.png
