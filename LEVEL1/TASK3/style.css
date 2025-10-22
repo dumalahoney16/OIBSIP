@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #cceeff, #e6f7ff); /* light blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #f0fbff; /* light blue card */
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    color: #3399ff; /* blue title */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #3399ff;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #66b3ff;
+}
+
+.unit-selection {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* space between From and To */
+    flex-wrap: wrap; /* wraps on small screens */
+}
+
+.unit-selection label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* space between text and dropdown */
+    font-weight: bold;
+    color: #555;
+}
+
+select {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #3399ff;
+    outline: none;
+}
+
+select:focus {
+    border-color: #66b3ff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+button {
+    background: #3399ff;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #66b3ff;
+    transform: translateY(-2px);
+}
+
+#resultLabel {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #e6f7ff;
+    border: 2px solid #3399ff;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+#resultLabel span {
+    color: #0066cc;
+}
+

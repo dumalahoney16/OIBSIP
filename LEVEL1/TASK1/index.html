@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PurpleGlow Skincare</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">PurpleGlow</h1>
+      <nav id="nav">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" id="menu-btn">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <h2>Glow Naturally with PurpleGlow</h2>
+      <p>Premium skincare products made with love and lavender.</p>
+      <button class="btn">Shop Now</button>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Our Skincare Essentials</h2>
+    <div class="product-grid">
+      <div class="product-card" data-product="cleanser">
+        <img src="images/cleanser.png" alt="Cleanser">
+        <h3>Cleanser</h3>
+      </div>
+      <div class="product-card" data-product="toner">
+        <img src="images/toner.jpeg" alt="Toner">
+        <h3>Toner</h3>
+      </div>
+      <div class="product-card" data-product="serum">
+        <img src="images/serum1.jpg" alt="Serum">
+        <h3>Serum</h3>
+      </div>
+      <div class="product-card" data-product="moisturizer">
+        <img src="images/moist.png" alt="Moisturizer">
+        <h3>Moisturizer</h3>
+      </div>
+      <div class="product-card" data-product="sunscreen">
+        <img src="images/sunscreen.png" alt="Sunscreen">
+        <h3>Sunscreen</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-container">
+      <blockquote>
+        “PurpleGlow transformed my skin! I feel fresh and confident every day.”
+        <cite>- Ayesha M.</cite>
+      </blockquote>
+      <blockquote>
+        “The lavender serum smells amazing and works wonders overnight.”
+        <cite>- Priya K.</cite>
+      </blockquote>
+      <blockquote>
+        “The world isn't all sunshine and rainbows, but today it was!”
+        <cite>- Honey D.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-content">
+      <p>Contact us: hello@purpleglow.com</p>
+      <p>&copy; 2025 PurpleGlow Skincare. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Product Modal -->
+  <div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul id="modal-details"></ul>
+    </div>
+  </div>
+</body>
+</html>
