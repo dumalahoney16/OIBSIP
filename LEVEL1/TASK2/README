@@ -1,0 +1,45 @@
+💻 Personal Portfolio – Dumala Honey
+📌 Objective
+
+The objective of this project is to design and develop a personal portfolio website that showcases your professional profile, skills, and projects. The goal is to create an online presence that highlights your abilities as a Web Developer and Designer, allowing visitors and recruiters to easily explore your work and contact you.
+
+🧩 Steps Performed
+1.Project Setup
+Created the main HTML structure using index.html.
+Linked external stylesheets (style.css) and Font Awesome icons for better UI and branding.
+
+2.Navigation Bar
+Added a fixed navigation bar with links to Home, About Me, Projects, and Contact sections.
+Included social media icons (Email, LinkedIn, GitHub) for quick connectivity.
+
+3.Home Section
+Displayed a personal introduction with name, title, and a professional photo.
+Added quick-access links for contacting via email or visiting social profiles.
+
+4.About Section
+Included a short bio describing your passion for web development and design.
+Highlighted your interest in building interactive and creative web applications.
+
+5.Projects Section
+Showcased sample projects with flip-card animations for interactivity.
+Example projects include:
+Simple Calculator – Built using HTML, CSS, and JavaScript.
+Dice Rolling Game – Fun and interactive JS-based game.
+Tic Tac Toe – A browser-based classic game.
+6.Contact Section
+Added a contact form (connected to Formspree) allowing users to send messages directly.
+Included footer with copyright, social icons, and a thank-you note.
+
+🛠️ Tools & Technologies Used
+
+HTML5 – Website structure and content layout.
+CSS3 – Styling, animations, and responsive design.
+Font Awesome – For professional icon integration.
+Formspree – To handle form submissions easily.
+Visual Studio Code – As the code editor.
+
+🎯 Outcome
+
+A fully responsive portfolio website that presents your professional identity and projects attractively.
+Visitors can learn about your skills, view your projects, and contact you directly.
+Clean UI design with smooth navigation, interactive elements, and a modern aesthetic.
